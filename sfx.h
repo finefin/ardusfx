@@ -1,9 +1,11 @@
 /*
- * SFX for Space Escape
+ * SFX
  * 
- * 
- * 
- * 
+ * usage:
+ * copy sfx.h to your project folder
+ * #include "sfx.h" to your sketch
+ * use the functions
+ *
  */
 
 
