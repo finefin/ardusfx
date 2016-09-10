@@ -2,6 +2,7 @@
  * SFX
  * 
  * usage:
+ * install NewTone library and include it to your sketch https://github.com/CRC-Mismatch/NewTone
  * copy sfx.h to your project folder
  * #include "sfx.h" to your sketch
  * use the functions
