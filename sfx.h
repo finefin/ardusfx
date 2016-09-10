@@ -8,7 +8,6 @@
  *
  */
 
-
 #include <Arduino.h>
 #include "pitches.h"
 #define TONE_PIN 8 //Pin of speaker/piezo, use 100 ohm resistor!
@@ -16,7 +15,6 @@
 int melodies[2][6] = { { NOTE_D3, NOTE_E3, NOTE_C3, NOTE_C2, NOTE_G2, 0 },
                         { NOTE_C3, NOTE_E5, NOTE_C1, NOTE_G1, NOTE_C3, 0}
 };
-
 
 void sndfxSine() {
   float randomWhistle = random (5, 30) * .01;
@@ -55,7 +53,6 @@ void playRandomMelody(){
     noNewTone(TONE_PIN);
   } 
 }
-
 
 void playRandomSound () {
   //Serial.println ("PLAY RND SND");
